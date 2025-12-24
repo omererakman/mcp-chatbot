@@ -24,6 +24,11 @@ An intelligent customer support chatbot powered by OpenAI GPT that orchestrates 
   <strong>Product Query</strong>
 </td>
 <td align="center">
+  <img src="docs/invalid_auth.png" alt="Invalid Authentication" width="100%" />
+  <br />
+  <strong>Invalid Authentication</strong>
+</td>
+<td align="center">
   <img src="docs/in_chat_authentication.png" alt="In-Chat Authentication" width="100%" />
   <br />
   <strong>In-Chat Authentication</strong>
@@ -39,11 +44,6 @@ An intelligent customer support chatbot powered by OpenAI GPT that orchestrates 
   <img src="docs/customer_info.png" alt="Customer Info" width="100%" />
   <br />
   <strong>Customer Info</strong>
-</td>
-<td align="center">
-  <img src="docs/invalid_auth.png" alt="Invalid Authentication" width="100%" />
-  <br />
-  <strong>Invalid Authentication</strong>
 </td>
 <td align="center">
   <img src="docs/success_auth_create_order.png" alt="Success Auth Create Order" width="100%" />
@@ -87,8 +87,6 @@ MCP_SERVER_API_KEY=
 # Optional: Next.js App URL (defaults to http://localhost:3000)
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 
-# Optional: Session duration in seconds (defaults to 86400 = 24 hours)
-SESSION_DURATION=86400
 ```
 
 **Important**: 
