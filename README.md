@@ -144,43 +144,6 @@ mcp-chatbot/
 └── tsconfig.json               # TypeScript configuration
 ```
 
-## API Endpoints
-
-### POST /api/chat
-
-Send messages to the chatbot and receive responses.
-
-**Request:**
-```json
-{
-  "messages": [
-    { "role": "user", "content": "Show me my orders" },
-    { "role": "assistant", "content": "I'd be happy to help! Could you provide your email and PIN?" },
-    { "role": "user", "content": "test@example.net, PIN 111" }
-  ]
-}
-```
-
-**Response:**
-```json
-{
-  "message": "You have 9 orders. Here are your recent orders: ...",
-  "toolsUsed": ["verify_customer_pin", "list_orders"]
-}
-```
-
-### GET /api/tools
-
-Discover available MCP tools, resources, and prompts.
-
-**Response:**
-```json
-{
-  "tools": [...],
-  "resources": [...],
-  "prompts": [...]
-}
-```
 
 ## Technologies
 
